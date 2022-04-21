@@ -18,4 +18,14 @@ The main idea is to keep sniffing packets (passive monitoring or scanning) in th
     
 If we got at least two problems from our methods the arp replay is suspicious and we send warn.
 
-## 
+## Demonstration
+
+### We take two kali-linux VMs (the left is the victim and the right is the attacker)
+![detect](https://user-images.githubusercontent.com/72939664/164504345-c7f614da-7268-407b-ae25-945ebd7ad7ce.png)
+
+### We use the arp spoofing attack
+![det2](https://user-images.githubusercontent.com/72939664/164504784-bf04ef24-f9e4-467b-a1f7-086f9ea60d51.png)
+
+### We turn on the detection attack and its warn us from attack
+![det3](https://user-images.githubusercontent.com/72939664/164504982-e4784300-8eb7-4746-9274-c8a5967d2bf4.png)
+
